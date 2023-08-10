@@ -1,0 +1,39 @@
+
+.search-form form {
+    background-color: var(--green-accent);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    max-width: 500px;
+    margin: 2rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input {
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    flex: 1;
+
+    background-color: inherit;
+    color: var(--txt-color);
+    font-weight: 700;
+}
+
+::placeholder {
+    opacity: 1;
+    font-family: inherit;
+    color: inherit;
+    font-weight: 700;
+}
+
+.search-form svg {
+    width: 30px;
+    height: 30px;
+}
+.search-icon {
+    fill: var(--txt-color);
+}

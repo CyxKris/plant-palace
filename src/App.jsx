@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Shop from './components/Shop';
 import Sitemap from './components/Sitemap';
 import NotFound from './components/404';
+import ThemeSwitcher from './components/ThemeSwitcher';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                 </Routes>
             </main>
             <Footer />
+            <ThemeSwitcher /> 
         </>
     );
 }

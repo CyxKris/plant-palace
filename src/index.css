@@ -57,6 +57,16 @@
 
     --red-accent: #B72C14;
 
+    transition: all .3s ease-in-out;
+}
+
+:root[data-theme="dark"] {
+    --bg-color: var(--green-900);
+    --txt-color: var(--green-100);
+    --green-accent: var(--green-500);
+}
+
+:root[data-theme="light"] {
     --bg-color: var(--green-100);
     --txt-color: var(--green-900);
     --green-accent: var(--green-500);
@@ -70,4 +80,5 @@ body {
 
 #root {
     padding-inline: 1rem;
+    /* position: relative; */
 }

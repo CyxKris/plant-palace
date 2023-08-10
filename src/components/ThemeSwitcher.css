@@ -1,0 +1,65 @@
+.theme-toggle {
+    position: sticky;
+    inset: auto auto .5rem 2rem;
+    width: 35px;
+    height: 35px;
+
+    background-color: var(--red-accent);
+    /* outline-color: var(--accent); */
+    border: none;
+    border-radius: .25rem;
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: 3px;
+}
+
+.theme-toggle .sun-path,
+.theme-toggle .moon-path {
+    transform-origin: center;
+    fill: var(--txt-color);
+}
+
+/* ?BUTTON IN DARK THEME */
+[data-theme="dark"] .theme-toggle .sun-path {
+    animation: fade-out .5s ease-in-out forwards;
+}
+
+[data-theme="dark"] .theme-toggle .moon-path {
+    animation: fade-in .5s ease-in-out forwards;
+}
+
+/* ?BUTTON IN LIGHT THEME */
+[data-theme="light"] .theme-toggle .sun-path {
+    animation: fade-in .5s ease-in-out forwards;
+}
+
+[data-theme="light"] .theme-toggle .moon-path {
+    animation: fade-out .5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        scale: 1;
+    }
+    to {
+        opacity: 0;
+        scale: 0;
+    }
+}
