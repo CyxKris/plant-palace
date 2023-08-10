@@ -1,7 +1,7 @@
 {
     "plants": [
         {
-            "id": "1",
+            "id": "001",
             "commonName": "Snake Plant",
             "scientificName": "Sansevieria trifasciata",
             "origin": "West Africa",
@@ -16,7 +16,7 @@
             }
         },
         {
-            "id": "2",
+            "id": "002",
             "commonName": "ZZ Plant",
             "scientificName": "Zamioculcas zamiifolia",
             "origin": "Eastern Africa",
@@ -31,7 +31,7 @@
             }
         },
         {
-            "id": "3",
+            "id": "003",
             "commonName": "Pothos",
             "scientificName": "Epipremnum aureum",
             "origin": "Solomon Islands",
@@ -46,7 +46,7 @@
             }
         },
         {
-            "id": "4",
+            "id": "004",
             "commonName": "Chinese Evergreen",
             "scientificName": "Aglaonema spp.",
             "origin": "Southeast Asia",
@@ -61,7 +61,7 @@
             }
         },
         {
-            "id": "5",
+            "id": "005",
             "commonName": "Rose Bush",
             "scientificName": "Rosa spp.",
             "origin": "Various regions",
@@ -76,7 +76,7 @@
             }
         },
         {
-            "id": "6",
+            "id": "006",
             "commonName": "Lavender",
             "scientificName": "Lavandula spp.",
             "origin": "Mediterranean region",
@@ -91,7 +91,7 @@
             }
         },
         {
-            "id": "7",
+            "id": "007",
             "commonName": "Ferns",
             "scientificName": "Various genera",
             "origin": "Worldwide",
@@ -106,7 +106,7 @@
             }
         },
         {
-            "id": "8",
+            "id": "008",
             "commonName": "Bougainvillea",
             "scientificName": "Bougainvillea spp.",
             "origin": "South America",
@@ -121,7 +121,7 @@
             }
         },
         {
-            "id": "9",
+            "id": "009",
             "commonName": "Basil",
             "scientificName": "Ocimum basilicum",
             "origin": "Southeast Asia",
@@ -136,7 +136,7 @@
             }
         },
         {
-            "id": "10",
+            "id": "010",
             "commonName": "Cherry Tomato",
             "scientificName": "Solanum lycopersicum",
             "origin": "South America",
@@ -151,7 +151,7 @@
             }
         },
         {
-            "id": "11",
+            "id": "011",
             "commonName": "Mint",
             "scientificName": "Mentha spp.",
             "origin": "Europe, Asia, Africa",
@@ -166,7 +166,7 @@
             }
         },
         {
-            "id": "12",
+            "id": "012",
             "commonName": "Strawberry",
             "scientificName": "Fragaria spp.",
             "origin": "Various regions",
@@ -181,7 +181,7 @@
             }
         },
         {
-            "id": "13",
+            "id": "013",
             "commonName": "Spider Plant",
             "scientificName": "Chlorophytum comosum",
             "origin": "Southern Africa",
@@ -197,7 +197,7 @@
             }
         },
         {
-            "id": "14",
+            "id": "014",
             "commonName": "Peace Lily",
             "scientificName": "Spathiphyllum spp.",
             "origin": "Tropical regions",
@@ -214,7 +214,7 @@
             }
         },
         {
-            "id": "15",
+            "id": "015",
             "commonName": "Jade Plant",
             "scientificName": "Crassula ovata",
             "origin": "South Africa",
@@ -231,7 +231,7 @@
             }
         },
         {
-            "id": "16",
+            "id": "016",
             "commonName": "Zucchini",
             "scientificName": "Cucurbita pepo",
             "origin": "Central and North America",

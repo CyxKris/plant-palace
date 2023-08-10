@@ -1,8 +1,10 @@
-import './ProductCard.css';
+/* eslint-disable react/prop-types */
+import "./ProductCard.css";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-const ProductCard = ({ plant }) => {
+const ProductCard = (props) => {
+    const { plant } = props;
     return (
         <>
             <motion.article
@@ -12,12 +14,17 @@ const ProductCard = ({ plant }) => {
                 layout
                 className="product-card"
             >
-                <h3>{ plant.commonName }</h3>
+                <h3>{plant.commonName}</h3>
                 <p>{plant.category}</p>
-                <p><em>Water:</em> {plant.waterRequirements}</p>
-                <p><em>Light: </em>{plant.lightRequirements}</p>
+                <p>
+                    <em>Water:</em> {plant.waterRequirements}
+                </p>
+                <p>
+                    <em>Light: </em>
+                    {plant.lightRequirements}
+                </p>
             </motion.article>
         </>
     );
-}
-export default ProductCard
+};
+export default ProductCard;

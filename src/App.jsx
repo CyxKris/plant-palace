@@ -1,35 +1,49 @@
-import './App.css'
+import "./App.css";
 
 import { Route, Routes } from "react-router-dom";
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-import Home from './components/Home';
-import Shop from './components/Shop';
-import Sitemap from './components/Sitemap';
-import NotFound from './components/404';
-import ThemeSwitcher from './components/ThemeSwitcher';
-import Product from './components/Product';
+import Home from "./components/Home";
+import Shop from "./components/Shop";
+import Sitemap from "./components/Sitemap";
+import NotFound from "./components/404";
+import ThemeSwitcher from "./components/ThemeSwitcher";
+import Product from "./components/Product";
 
 function App() {
-
     return (
         <>
             <Header />
             <main>
                 <Routes>
-                    <Route path="/" element={ <Home />} />
-                    <Route path="/shop" element={ <Shop />} />
-                    <Route path="/sitemap" element={ <Sitemap />} />
-                    <Route path="*" element={<NotFound />} />
-                    <Route path="/shop/products/:id" element={<Product />} />
+                    <Route
+                        path="/"
+                        element={<Home />}
+                    />
+                    <Route
+                        path="/shop"
+                        element={<Shop />}
+                    />
+                    <Route
+                        path="/sitemap"
+                        element={<Sitemap />}
+                    />
+                    <Route
+                        path="*"
+                        element={<NotFound />}
+                    />
+                    <Route
+                        path="/shop/products/:id"
+                        element={<Product />}
+                    />
                 </Routes>
             </main>
             <Footer />
-            <ThemeSwitcher /> 
+            <ThemeSwitcher />
         </>
     );
 }
 
-export default App
+export default App;

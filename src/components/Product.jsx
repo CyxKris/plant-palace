@@ -1,41 +1,26 @@
-import './Product.css';
+import "./Product.css";
 
-import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
-import { plants } from '../assets/plants.json';
-
+import { plants } from "../assets/plants.json";
 
 const Product = () => {
-
     useEffect(() => {
-        document.title = 'PlantPlanet | Product';
-        fetchData();
+        document.title = "PlantPlanet | Product";
     }, []);
 
     const { id } = useParams();
-    const newId = { id };
 
-    const [list, setList] = useState([]);
-    const fetchData = () => {
-        setList(plants);
-    }
-
-
-    console.log(list);
-
-    const currentProduct = list.filter((plant) => {
-        return plant.id === newId;
-    });
-
-    console.log(currentProduct);
+    const currentProduct = plants.find((plant) => plant.id === id);
 
     return (
         <>
             <h2>A Product!</h2>
             <h3>{currentProduct.commonName}</h3>
-            {/* <p>This is product {id}</p> */}
+            <p>This is product {id}</p>
+            <Link to={"/shop"}>Back To Products</Link>
         </>
     );
-}
+};
 export default Product;
