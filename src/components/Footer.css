@@ -1,6 +1,6 @@
 footer {
     padding-block: 2rem;
-    border-top: 2px solid var(--green-900);
+    border-top: 2px solid var(--txt-color);
 
     max-width: 1200px;
     margin-inline: auto;
@@ -8,7 +8,7 @@ footer {
 
 .footer-content {
     border-radius: 1.5rem;
-    background-color: var(--txt-color);
+    background-color: var(--footer-bg);
     padding: 1rem 1.2rem;
 
     font-size: 1.2rem;
@@ -16,6 +16,8 @@ footer {
 }
 
 .footer-logo {
+    text-decoration: none;
+    color: inherit;
     font-size: 1.25rem;
     font-weight: 500;
 

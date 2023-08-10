@@ -1,0 +1,9 @@
+
+
+article {
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+
+    border-radius: 1rem;
+    padding: 1rem;    
+}

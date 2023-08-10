@@ -18,7 +18,7 @@
 
 #hero .cta {
     text-decoration: none;
-    background-color: var(--txt-color);
+    background-color: var(--hero-cta);
     color: var(--bg-color);
 
     font-weight: 300;

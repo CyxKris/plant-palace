@@ -64,12 +64,18 @@
     --bg-color: var(--green-900);
     --txt-color: var(--green-100);
     --green-accent: var(--green-500);
+
+    --hero-cta: var(--green-accent);
+    --footer-bg: var(--green-accent);
 }
 
 :root[data-theme="light"] {
     --bg-color: var(--green-100);
     --txt-color: var(--green-900);
     --green-accent: var(--green-500);
+
+    --hero-cta: var(--txt-color);
+    --footer-bg: var(--txt-color);
 }
 
 body {

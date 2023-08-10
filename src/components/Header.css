@@ -11,10 +11,12 @@ header {
 
     padding-block: 1rem;
 
-    border-bottom: 2px solid var(--green-900);
+    border-bottom: 2px solid var(--txt-color);
 }
 
 .logo {
+    text-decoration: none;
+    color: inherit;
     font-size: 1.5rem;
     font-weight: 500;
 }

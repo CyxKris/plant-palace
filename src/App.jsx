@@ -10,8 +10,10 @@ import Shop from './components/Shop';
 import Sitemap from './components/Sitemap';
 import NotFound from './components/404';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import Product from './components/Product';
 
 function App() {
+
     return (
         <>
             <Header />
@@ -20,7 +22,8 @@ function App() {
                     <Route path="/" element={ <Home />} />
                     <Route path="/shop" element={ <Shop />} />
                     <Route path="/sitemap" element={ <Sitemap />} />
-                    <Route path="*" element={ <NotFound />} />
+                    <Route path="*" element={<NotFound />} />
+                    <Route path="/shop/products/:id" element={<Product />} />
                 </Routes>
             </main>
             <Footer />

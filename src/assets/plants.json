@@ -1,0 +1,250 @@
+{
+    "plants": [
+        {
+            "id": "1",
+            "commonName": "Snake Plant",
+            "scientificName": "Sansevieria trifasciata",
+            "origin": "West Africa",
+            "waterRequirements": "Low",
+            "lightRequirements": "Low to medium indirect light",
+            "wateringCycle": "Every 2-6 weeks, depending on humidity and light conditions",
+            "description": "A hardy and stylish indoor plant with tall, upright leaves. Thrives in low light and is drought-tolerant.",
+            "category": "Indoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "2",
+            "commonName": "ZZ Plant",
+            "scientificName": "Zamioculcas zamiifolia",
+            "origin": "Eastern Africa",
+            "waterRequirements": "Low",
+            "lightRequirements": "Low to moderate indirect light",
+            "wateringCycle": "Every 3-4 weeks",
+            "description": "A resilient and popular indoor plant with arching leaves. Requires minimal care and purifies the air.",
+            "category": "Indoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "3",
+            "commonName": "Pothos",
+            "scientificName": "Epipremnum aureum",
+            "origin": "Solomon Islands",
+            "waterRequirements": "Moderate",
+            "lightRequirements": "Low to medium indirect light",
+            "wateringCycle": "Every 1-2 weeks",
+            "description": "A versatile trailing plant with heart-shaped leaves. Well-suited for both beginners and experienced plant lovers.",
+            "category": "Indoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "4",
+            "commonName": "Chinese Evergreen",
+            "scientificName": "Aglaonema spp.",
+            "origin": "Southeast Asia",
+            "waterRequirements": "Moderate",
+            "lightRequirements": "Low to medium indirect light",
+            "wateringCycle": "Every 2-3 weeks",
+            "description": "Variety of colorful foliage. Adapts well to indoor environments.",
+            "category": "Indoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "5",
+            "commonName": "Rose Bush",
+            "scientificName": "Rosa spp.",
+            "origin": "Various regions",
+            "waterRequirements": "Moderate",
+            "lightRequirements": "Full sun (at least 6 hours of direct sunlight per day)",
+            "wateringCycle": "Weekly",
+            "description": "Pruning and deadheading encourage blooming. Different rose types offer a range of colors and fragrances.",
+            "category": "Outdoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "6",
+            "commonName": "Lavender",
+            "scientificName": "Lavandula spp.",
+            "origin": "Mediterranean region",
+            "waterRequirements": "Low",
+            "lightRequirements": "Full sun for optimal growth and fragrance",
+            "wateringCycle": "Every 1-2 weeks",
+            "description": "Drought-tolerant once established. Prune after flowering to maintain shape and encourage new growth.",
+            "category": "Outdoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "7",
+            "commonName": "Ferns",
+            "scientificName": "Various genera",
+            "origin": "Worldwide",
+            "waterRequirements": "High",
+            "lightRequirements": "Shade to partial shade, protecting from direct sunlight",
+            "wateringCycle": "Regularly, 2-3 times per week",
+            "description": "Ideal for shaded gardens. Boston Fern and Maidenhair Fern are popular choices.",
+            "category": "Outdoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "8",
+            "commonName": "Bougainvillea",
+            "scientificName": "Bougainvillea spp.",
+            "origin": "South America",
+            "waterRequirements": "Low to moderate",
+            "lightRequirements": "Full sun for vibrant flowering",
+            "wateringCycle": "Every 1-2 weeks",
+            "description": "Colorful bracts create a stunning display. Prune after flowering for shape.",
+            "category": "Outdoor Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "9",
+            "commonName": "Basil",
+            "scientificName": "Ocimum basilicum",
+            "origin": "Southeast Asia",
+            "waterRequirements": "Regular",
+            "lightRequirements": "Full sun to partial shade",
+            "harvestingInfo": "Pinch leaves regularly to encourage bushier growth and prevent flowering.",
+            "description": "A fragrant herb with tender leaves used in various cuisines. Excellent for pesto, salads, and garnishes.",
+            "category": "Edible Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "10",
+            "commonName": "Cherry Tomato",
+            "scientificName": "Solanum lycopersicum",
+            "origin": "South America",
+            "waterRequirements": "Regular",
+            "lightRequirements": "Full sun",
+            "harvestingInfo": "Harvest when tomatoes are fully colored and firm.",
+            "description": "Compact and prolific tomato plant producing sweet cherry-sized fruits. Ideal for small gardens and containers.",
+            "category": "Edible Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "11",
+            "commonName": "Mint",
+            "scientificName": "Mentha spp.",
+            "origin": "Europe, Asia, Africa",
+            "waterRequirements": "Regular",
+            "lightRequirements": "Partial shade to full sun",
+            "harvestingInfo": "Pinch off leaves to encourage bushy growth and prevent flowering.",
+            "description": "A refreshing herb with a pleasant aroma. Used in teas, cocktails, and culinary dishes.",
+            "category": "Edible Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "12",
+            "commonName": "Strawberry",
+            "scientificName": "Fragaria spp.",
+            "origin": "Various regions",
+            "waterRequirements": "Regular",
+            "lightRequirements": "Full sun to partial shade",
+            "harvestingInfo": "Pick ripe strawberries as they turn fully red.",
+            "description": "Delicious and nutritious berries grown in home gardens. Perfect for snacking, desserts, and preserves.",
+            "category": "Edible Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "13",
+            "commonName": "Spider Plant",
+            "scientificName": "Chlorophytum comosum",
+            "origin": "Southern Africa",
+            "waterRequirements": "Moderate",
+            "lightRequirements": "Indirect light, but can tolerate low light conditions.",
+            "maintenanceInfo": "Produces 'pups' on arching stems that can be repotted.",
+            "benefits": "Air-purifying qualities and ease of care.",
+            "description": "A resilient and popular indoor plant with arching leaves. Requires minimal care and purifies the air.",
+            "category": "Easy-to-Grow Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "14",
+            "commonName": "Peace Lily",
+            "scientificName": "Spathiphyllum spp.",
+            "origin": "Tropical regions",
+            "waterRequirements": "Moderate",
+            "lightRequirements": "Low to medium indirect light. Can tolerate low light",
+            "wateringCycle": "Every 1-2 weeks. Wilting leaves indicate the need for water",
+            "maintenanceInfo": "Keep the leaves clean by wiping them with a damp cloth.",
+            "benefits": "Air-purifying qualities and elegant white blooms.",
+            "description": "A popular indoor plant known for its air-purifying abilities and elegant white flowers.",
+            "category": "Easy-to-Grow Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "15",
+            "commonName": "Jade Plant",
+            "scientificName": "Crassula ovata",
+            "origin": "South Africa",
+            "waterRequirements": "Low",
+            "lightRequirements": "Bright sunlight for optimal growth",
+            "wateringCycle": "Every 2-4 weeks, depending on the season",
+            "maintenanceInfo": "Allow the soil to dry out between waterings.",
+            "benefits": "Symbolizes prosperity and luck in some cultures.",
+            "description": "A succulent with thick, fleshy leaves that store water. Symbolizes prosperity and luck in some cultures.",
+            "category": "Easy-to-Grow Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        },
+        {
+            "id": "16",
+            "commonName": "Zucchini",
+            "scientificName": "Cucurbita pepo",
+            "origin": "Central and North America",
+            "waterRequirements": "Regular",
+            "lightRequirements": "Full sun",
+            "maintenanceInfo": "Harvest zucchini when they're young and tender for best flavor.",
+            "benefits": "Homegrown and freshly harvested produce.",
+            "description": "A fast-growing summer squash producing edible, tender fruits. Suitable for garden beds or containers.",
+            "category": "Easy-to-Grow Plants",
+            "imageSource": {
+                "webp": "",
+                "mozjpeg": ""
+            }
+        }
+    ]
+}
