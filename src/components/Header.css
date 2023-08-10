@@ -1,0 +1,45 @@
+
+header {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 1rem;
+
+    border-bottom: 2px solid var(--green-900);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.logo span {
+    font-weight: 900;
+}
+
+.menu svg,
+.cart svg {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.menu-icon-path,
+.cart-icon-path {
+    fill: var(--txt-color);
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    /* gap: .25rem; */
+
+    font-size: 1.2rem;
+    font-weight: 800;
+}
