@@ -5,3 +5,11 @@ main {
 
     /* position: relative; */
 }
+
+main:has(section#cart-page) {
+    min-height: 100vh;
+}
+
+main section#cart-page {
+    min-height: 100vh;
+}

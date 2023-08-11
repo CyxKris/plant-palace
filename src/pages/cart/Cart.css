@@ -1,0 +1,18 @@
+#cart-page {
+    display: flex;
+    flex-direction: column;
+}
+
+#cart-page h1, 
+#cart-page h3 {
+    text-align: center;
+}
+
+
+.empty-cart-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
