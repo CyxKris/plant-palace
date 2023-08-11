@@ -14,15 +14,19 @@ const ProductCard = (props) => {
                 layout
                 className="product-card"
             >
-                <h3>{plant.commonName}</h3>
-                <p>{plant.category}</p>
-                <p>
-                    <em>Water:</em> {plant.waterRequirements}
-                </p>
-                <p>
-                    <em>Light: </em>
-                    {plant.lightRequirements}
-                </p>
+                <div className="card-info">
+                    <p className="card-id">{plant.id}</p>
+
+                    <div className="right">
+                        <p className="card-name">{plant.commonName}</p>
+                        <p className="card-category">{plant.category}</p>
+                    </div>
+                </div>
+
+                <picture className="card-image">
+                    <source type="image/webp" srcSet={`src/assets/plants/${plant.img1.webp}`} />
+                    <img src={`src/assets/plants/${plant.img1.mozjpeg}`} alt="" />
+                </picture>
             </motion.article>
         </>
     );

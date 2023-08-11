@@ -63,7 +63,7 @@ const Shop = () => {
                         type="text"
                         name="search"
                         id="search"
-                        placeholder="Search our products"
+                        placeholder="Search products by name"
                     />
                     <svg
                         width="57"

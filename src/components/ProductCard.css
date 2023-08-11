@@ -1,9 +1,63 @@
 
 
-article {
+.product-card {
     background-color: var(--txt-color);
     color: var(--bg-color);
 
     border-radius: 1rem;
-    padding: 1rem;    
+    
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(16px);
+}
+
+.product-card .card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    position: absolute;
+    inset: 0;
+    text-shadow: 
+        1px 1px 21px rgba(9, 27, 17, 0.25),
+        1px 1px 13px rgba(42, 38, 106, 0.37)
+        ;
+    color: var(--green-900);
+}
+
+.card-info .card-id {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-info .card-name {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.25rem;
+
+    line-height: 1;
+}
+
+.card-info .card-category {
+    font-weight: 300;
+    font-weight: .8rem;
+
+    line-height: 1;
+}
+
+.product-card .card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
 }
