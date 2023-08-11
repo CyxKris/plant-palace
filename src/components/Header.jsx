@@ -2,6 +2,7 @@ import "./Header.css";
 
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 const Header = () => {
     const navRef = useRef();
@@ -11,6 +12,8 @@ const Header = () => {
         // For browsers that don't support the :has() selector
         document.body.classList.toggle("no-scroll");
     };
+
+    const { cartQuantity } = useShoppingCart();
 
     return (
         <>
@@ -45,7 +48,8 @@ const Header = () => {
                     </Link>
 
                     {/* CART */}
-                    <div
+                    <Link
+                        to="/cart"
                         id="cart"
                         className="cart icon"
                     >
@@ -68,8 +72,8 @@ const Header = () => {
                                 d="M26.8125 34.125C28.1587 34.125 29.25 33.0337 29.25 31.6875C29.25 30.3413 28.1587 29.25 26.8125 29.25C25.4663 29.25 24.375 30.3413 24.375 31.6875C24.375 33.0337 25.4663 34.125 26.8125 34.125Z"
                             />
                         </svg>
-                        <p className="cart-count">0</p>
-                    </div>
+                        <p className="cart-count">{cartQuantity}</p>
+                    </Link>
                 </nav>
 
                 {/* ACTUAL MENU NAVIGATION */}

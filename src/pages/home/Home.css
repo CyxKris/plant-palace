@@ -34,3 +34,9 @@
     background-color: var(--red-accent);
     color: var(--green-900);
 }
+
+@media (min-width: 768px) {
+    #hero h1 {
+        font-size: 6rem;
+    }
+}
