@@ -5,10 +5,10 @@ import Category from "../../components/Category";
 
 import { categories } from "../../assets/categories.json";
 
-import image1 from "../../assets/large/large-1.jpg";
-import image2 from "../../assets/large/large-2.jpg";
-import image3 from "../../assets/large/large-3.jpg";
-import image4 from "../../assets/large/large-4.jpg";
+import image1 from "/large/large-1.jpg";
+import image2 from "/large/large-2.jpg";
+import image3 from "/large/large-3.jpg";
+import image4 from "/large/large-4.jpg";
 
 import Slider from "../../components/Slider";
 
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
 
                 <div className="divider"></div>
-                
+
                 <div className="message">
                     <p>customer-first <br /> approach</p>
                 </div>

@@ -1,0 +1,28 @@
+.error-page-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-page-message h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.error-page-message a {
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: var(--txt-color);
+
+    padding: 1.2rem;
+    border-radius: 1rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.error-page-message a:hover {
+    background-color: var(--red-accent);
+    color: var(--green-900);
+}

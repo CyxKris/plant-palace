@@ -14,8 +14,6 @@
     background-color: var(--green-500);
     border-radius: 1rem;
     margin-block: 2rem;
-
-    overflow: hidden;
 }
 
 #hero .cta {
@@ -58,8 +56,10 @@
     padding-block: 2rem;
 }
 
-#messages .message:nth-child(2) p {
-    border-block: 2px solid var(--txt-color);
+#messages .divider {
+    height: 2px;
+    width: 200px;
+    background-color: var(--txt-color);
 }
 
 

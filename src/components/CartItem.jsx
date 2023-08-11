@@ -10,6 +10,7 @@ const CartItem = ({ id, quantity }) => {
     const { removeFromCart } = useShoppingCart();
     const cartPlants = plants.find(item => item.id === id);
 
+    // if there's nothing in the cart
     if (cartPlants == null) return null;
 
     return (
@@ -20,11 +21,12 @@ const CartItem = ({ id, quantity }) => {
             </picture>
 
             <div className="cart-item-details">
-                <div>
+                <div className='item-data'>
                     <p>{cartPlants.id}</p>
                     <p>{cartPlants.commonName}</p>
                     <p>{cartPlants.category}</p>
                 </div>
+
                 <div>
                     <div>
                         <p className="item-quantity">x{quantity}</p>

@@ -44,7 +44,7 @@ const Header = () => {
                         id="logo"
                         className="logo"
                     >
-                        Plant<span>Planet</span>
+                        Plant<span>Palace</span>
                     </Link>
 
                     {/* CART */}

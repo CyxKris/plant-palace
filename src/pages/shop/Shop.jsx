@@ -9,6 +9,13 @@ import { plants } from "../../assets/plants.json";
 import ProductCard from "../../components/ProductCard";
 import FormSearch from "../../components/FormSearch";
 
+import image1 from '/large/shop-1.jpg';
+import image2 from '/large/shop-2.jpg';
+import image3 from '/large/shop-3.jpg';
+import image4 from '/large/shop-4.jpg';
+
+import Slider from "../../components/Slider";
+
 const Shop = () => {
     // Changing the document title
     useEffect(() => {
@@ -17,7 +24,6 @@ const Shop = () => {
     }, []);
 
     // For the Search component
-
     const [searchQuery, setSearchQuery] = useState("");
 
     // Default State
@@ -48,7 +54,7 @@ const Shop = () => {
                     </p>
                 </article>
                 <article className="hero-carousel">
-                    <div className="carousel"></div>
+                    <Slider image1={image1} image2={image2} image3={image3} image4={image4} />
                 </article>
             </section>
 
@@ -83,11 +89,13 @@ const Shop = () => {
             />
 
             {/* THE PRODUCTS */}
+            {/* Adding animations using framer motion */}
             <motion.section
                 layout
                 className="products"
             >
                 <AnimatePresence>
+                    {/* filtering the rendered plants by the user's input in the search bar */}
                     {filtered
                         .filter((item) => {
                             return searchQuery.toLowerCase() === ""

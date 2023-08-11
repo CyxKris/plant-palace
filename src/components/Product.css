@@ -6,8 +6,15 @@
 }
 
 .product-page .product-details,
-.product-page .product-image {
+.product-page .product-func {
     flex: 1;
+}
+
+.product-image {
+    box-shadow:
+        2.4px 2.6px 27px -4px rgba(0, 0, 0, 0.035),
+        19px 21px 216px -4px rgba(0, 0, 0, 0.07)
+    ;
 }
 
 .product-image img {
@@ -63,13 +70,20 @@
 
 .product-buttons {
     display: flex;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-top: 1rem;
 }
 
 .product-button {
     text-decoration: none;
     color: var(--bg-color);
     background-color: var(--txt-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     padding: 1rem;
     border-radius: .75rem;
@@ -110,6 +124,14 @@
 
 .add-cart-functions svg .add-to-cart-icon {
     fill: var(--green-900);
+    cursor: pointer;
+}
+
+.add-cart-functions button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media (min-width: 928px) {

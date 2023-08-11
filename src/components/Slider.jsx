@@ -12,7 +12,7 @@ const Slider = (props) => {
 
     // const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
     // const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false })
-    const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
+    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
     return (
         <div

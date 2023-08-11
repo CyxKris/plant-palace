@@ -1,0 +1,45 @@
+#sitemap h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#sitemap h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    border-bottom: 2px solid var(--txt-color);
+}
+
+#sitemap .links-section:not(:nth-child(2)) {
+    margin-top: 2rem;
+}
+
+#sitemap .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+#sitemap .links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.25rem;
+
+    transition: all .3s ease-in-out;
+}
+
+#sitemap .links a:hover {
+    color: var(--red-accent);
+}
+
+@media (min-width: 968px) {
+    #sitemap .links {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    #sitemap h1 {
+        font-size: 4rem;
+    }
+}

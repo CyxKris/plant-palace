@@ -25,16 +25,41 @@ const Product = () => {
 
     return (
         <section className="product-page">
-            <picture className="product-image">
-                <source
-                    type="image/webp"
-                    srcSet={`/plants/${currentProduct.img1.webp}`}
-                />
-                <img
-                    src={`/plants/${currentProduct.img1.mozjpeg}`}
-                    alt=""
-                />
-            </picture>
+            <section className="product-func">
+                <picture className="product-image">
+                    <source
+                        type="image/webp"
+                        srcSet={`/plants/${currentProduct.img1.webp}`}
+                    />
+                    <img
+                        src={`/plants/${currentProduct.img1.mozjpeg}`}
+                        alt=""
+                    />
+                </picture>
+
+                <div className="product-buttons">
+                    {/* linking back to the shop page */}
+                    <Link
+                        to={"/shop"}
+                        className="product-button"
+                    >
+                        Back To Products
+                    </Link>
+                    {/* if the item is not in the cart, display add to cart. Else, display the cart buttons to increase, reduce or remove the item */}
+                    {quantity === 0 ? (
+                        <a className="product-button" onClick={() => increaseCartQuantity(currentProduct.id)}>Add To Cart</a>
+                    ) : (
+                            <div className="add-cart-functions">
+                                <div>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" onClick={() => decreaseCartQuantity(currentProduct.id)}><path className="add-to-cart-icon" d="M5 11h14v2H5z" /></svg>
+                                    <p>{quantity}</p>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" onClick={() => increaseCartQuantity(currentProduct.id)}><path className="add-to-cart-icon" d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
+                                </div>
+                                <button onClick={() => removeFromCart(currentProduct.id)}>Remove</button>
+                        </div>
+                    )}
+                </div>
+            </section>
 
             <section className="product-details">
                 <article className="product-page-info">
@@ -72,27 +97,6 @@ const Product = () => {
                         </p>
                     </div>
                 </article>
-
-                <div className="product-buttons">
-                    <Link
-                        to={"/shop"}
-                        className="product-button"
-                    >
-                        Back To Products
-                    </Link>
-                    {quantity === 0 ? (
-                        <a className="product-button" onClick={() => increaseCartQuantity(currentProduct.id)}>Add To Cart</a>
-                    ) : (
-                            <div className="add-cart-functions">
-                                <div>
-                                    <svg width="24" height="24" viewBox="0 0 24 24" onClick={() => decreaseCartQuantity(currentProduct.id)}><path className="add-to-cart-icon" d="M5 11h14v2H5z" /></svg>
-                                    <p>{quantity}</p>
-                                    <svg width="24" height="24" viewBox="0 0 24 24" onClick={() => increaseCartQuantity(currentProduct.id)}><path className="add-to-cart-icon" d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
-                                </div>
-                                <button onClick={() => removeFromCart(currentProduct.id)}>Remove</button>
-                        </div>
-                    )}
-                </div>
             </section>
         </section>
     );

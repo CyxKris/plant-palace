@@ -4,6 +4,8 @@
     width: 35px;
     height: 35px;
 
+    z-index: 999;
+
     background-color: var(--red-accent);
     /* outline-color: var(--accent); */
     border: none;

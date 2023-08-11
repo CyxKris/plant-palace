@@ -13,3 +13,7 @@ main:has(section#cart-page) {
 main section#cart-page {
     min-height: 100vh;
 }
+
+main section.error-page-message {
+    min-height: 100vh;
+}

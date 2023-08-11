@@ -15,6 +15,19 @@
 .hero-text {
     padding: 1rem;
     flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 .hero-carousel {
