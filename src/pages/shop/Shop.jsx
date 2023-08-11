@@ -44,10 +44,7 @@ const Shop = () => {
                 <article className="hero-text">
                     <h1>THE SHOP</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Veniam suscipit officiis sunt nam vel ipsa
-                        assumenda vero iusto blanditiis in! Inventore rerum
-                        maxime dolores ex excepturi ut quidem, dolorem ducimus.
+                        Step into a world where nature's embrace welcomes you. Our webpage is more than just a collection of plants – it's a sanctuary of growth, a haven of inspiration. As you explore, may you find the motivation to nurture both green life and the dreams they symbolize. Together, let's cultivate beauty, purpose, and endless wonder.
                     </p>
                 </article>
                 <article className="hero-carousel">

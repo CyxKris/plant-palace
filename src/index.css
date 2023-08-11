@@ -82,6 +82,8 @@ body {
     background-color: var(--bg-color);
     color: var(--txt-color);
     font-family: 'fa', sans-serif;
+
+    transition: all .3s ease-in-out;
 }
 
 body:has(nav.is-open) {

@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "category": "Indoor Plants",
+            "contentLong": "Transform your living space with lush indoor plants. Whether you're a beginner or a seasoned plant enthusiast, our selection of indoor plants offers a variety of colors, shapes, and sizes to suit any interior. Elevate your decor and improve air quality with these carefully curated plant companions.",
+            "contentShort": "Bring nature indoors with our exquisite selection of lush and vibrant indoor plants, perfect for adding a touch of green to any space.",
+            "image": {
+                "webp": "indoor-1.webp",
+                "mozjpeg": "indoor-1.jpg"
+            }
+        },
+        {
+            "category": "Outdoor Plants",
+            "contentLong": "Enhance your outdoor oasis with our diverse range of outdoor plants. From vibrant blooms to hardy shrubs, our outdoor plants are selected to thrive in your garden, patio, or balcony. Discover the joy of gardening and create a picturesque landscape that flourishes with nature's beauty.",
+            "contentShort": "Explore our selection of outdoor plants, designed to add color and life to your outdoor environment.",
+            "image": {
+                "webp": "outdoor-1.webp",
+                "mozjpeg": "outdoor-1.jpg"
+            }
+        },
+        {
+            "category": "Edible Plants",
+            "contentLong": "Experience the satisfaction of growing your own food with our selection of edible plants. From herbs and vegetables to fruits and spices, cultivate a garden that provides both fresh flavors and a sense of accomplishment. Enjoy the journey from garden to table with our handpicked edible plant varieties.",
+            "contentShort": "Experience the joy of cultivating your own fresh and flavorful ingredients with our diverse range of edible plants.",
+            "image": {
+                "webp": "edible-1.webp",
+                "mozjpeg": "edible-1.jpg"
+            }
+        },
+        {
+            "category": "Easy-To-Grow Plants",
+            "contentLong": "Green thumbs and newcomers alike will appreciate our collection of easy-to-grow plants. These resilient beauties are perfect for those seeking low-maintenance greenery that thrives with minimal effort. Elevate your space with a touch of nature that fits your busy lifestyle.",
+            "contentShort": "Discover the pleasure of gardening without the hassle – our selection of easy to grow plants ensures a successful and enjoyable gardening experience.",
+            "image": {
+                "webp": "easy-1.webp",
+                "mozjpeg": "easy-1.jpg"
+            }
+        }
+    ]
+}

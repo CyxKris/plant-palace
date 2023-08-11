@@ -74,3 +74,14 @@ footer {
     font-weight: 300;
     text-align: center;
 }
+
+@media (min-width: 1024px) {
+
+    .footer-logo {
+        font-size: 1.5rem;
+    }
+
+    .footer-content {
+        font-size: 2.5rem;
+    }
+}

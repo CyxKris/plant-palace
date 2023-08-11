@@ -15,7 +15,7 @@ const CartItem = ({ id, quantity }) => {
     return (
         <div className='cart-item'>
             <picture className='cart-item-image'>
-                <source srcSet={`/src/assets/plants/${cartPlants.img1.webp}`} />
+                <source srcSet={`/plants/${cartPlants.img1.webp}`} />
                 <img src={cartPlants.img1.mozjpeg} alt="" />
             </picture>
 

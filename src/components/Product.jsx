@@ -5,7 +5,6 @@ import { useEffect } from "react";
 
 import { formatCurrency } from "../utilities/formatCurrency";
 
-// import { ShopContext } from "../context/shop-context";
 
 import { plants } from "../assets/plants.json";
 import { useShoppingCart } from "../context/ShoppingCartContext";
@@ -29,10 +28,10 @@ const Product = () => {
             <picture className="product-image">
                 <source
                     type="image/webp"
-                    srcSet={`/src/assets/plants/${currentProduct.img1.webp}`}
+                    srcSet={`/plants/${currentProduct.img1.webp}`}
                 />
                 <img
-                    src={`/src/assets/plants/${currentProduct.img1.mozjpeg}`}
+                    src={`/plants/${currentProduct.img1.mozjpeg}`}
                     alt=""
                 />
             </picture>

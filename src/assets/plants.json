@@ -113,8 +113,8 @@
             "description": "Pruning and deadheading encourage blooming. Different rose types offer a range of colors and fragrances.",
             "category": "Outdoor Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "rosebush-1.webp",
+                "mozjpeg": "rosebush-1.jpg"
             }
         },
         {
@@ -130,8 +130,8 @@
             "description": "Drought-tolerant once established. Prune after flowering to maintain shape and encourage new growth.",
             "category": "Outdoor Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "lavender-1.webp",
+                "mozjpeg": "lavender-1.jpg"
             }
         },
         {
@@ -147,8 +147,8 @@
             "description": "Ideal for shaded gardens. Boston Fern and Maidenhair Fern are popular choices.",
             "category": "Outdoor Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "ferns-1.webp",
+                "mozjpeg": "ferns-1.jpg"
             }
         },
         {
@@ -164,8 +164,8 @@
             "description": "Colorful bracts create a stunning display. Prune after flowering for shape.",
             "category": "Outdoor Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "bougainvillea-1.webp",
+                "mozjpeg": "bougainvillea-1.jpg"
             }
         },
         {
@@ -181,8 +181,8 @@
             "description": "A fragrant herb with tender leaves used in various cuisines. Excellent for pesto, salads, and garnishes.",
             "category": "Edible Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "basil-1.webp",
+                "mozjpeg": "basil-1.jpg"
             }
         },
         {
@@ -198,8 +198,8 @@
             "description": "Compact and prolific tomato plant producing sweet cherry-sized fruits. Ideal for small gardens and containers.",
             "category": "Edible Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "cherrytomato-1.webp",
+                "mozjpeg": "cherrytomato-1.jpg"
             }
         },
         {
@@ -215,8 +215,8 @@
             "description": "A refreshing herb with a pleasant aroma. Used in teas, cocktails, and culinary dishes.",
             "category": "Edible Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "mint-1.webp",
+                "mozjpeg": "mint-1.jpg"
             }
         },
         {
@@ -232,8 +232,8 @@
             "description": "Delicious and nutritious berries grown in home gardens. Perfect for snacking, desserts, and preserves.",
             "category": "Edible Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "strawberry-1.webp",
+                "mozjpeg": "strawberry-1.jpg"
             }
         },
         {
@@ -250,8 +250,8 @@
             "description": "A resilient and popular indoor plant with arching leaves. Requires minimal care and purifies the air.",
             "category": "Easy-to-Grow Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "spiderplant-1.webp",
+                "mozjpeg": "spiderplant-1.jpg"
             }
         },
         {
@@ -269,8 +269,8 @@
             "description": "A popular indoor plant known for its air-purifying abilities and elegant white flowers.",
             "category": "Easy-to-Grow Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "peacelily-1.webp",
+                "mozjpeg": "peacelily-1.jpg"
             }
         },
         {
@@ -288,8 +288,8 @@
             "description": "A succulent with thick, fleshy leaves that store water. Symbolizes prosperity and luck in some cultures.",
             "category": "Easy-to-Grow Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "jadeplant-1.webp",
+                "mozjpeg": "jadeplant-1.jpg"
             }
         },
         {
@@ -306,8 +306,8 @@
             "description": "A fast-growing summer squash producing edible, tender fruits. Suitable for garden beds or containers.",
             "category": "Easy-to-Grow Plants",
             "img1": {
-                "webp": "",
-                "mozjpeg": ""
+                "webp": "zucchini-1.webp",
+                "mozjpeg": "zucchini-1.jpg"
             }
         }
     ]

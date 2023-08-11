@@ -14,6 +14,8 @@
     background-color: var(--green-500);
     border-radius: 1rem;
     margin-block: 2rem;
+
+    overflow: hidden;
 }
 
 #hero .cta {
@@ -35,8 +37,91 @@
     color: var(--green-900);
 }
 
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    margin-block: 4rem;
+}
+
+#messages .message {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+#messages .message p {
+    text-align: center;
+    padding-block: 2rem;
+}
+
+#messages .message:nth-child(2) p {
+    border-block: 2px solid var(--txt-color);
+}
+
+
+
+
+/* ?categories */
+#categories h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+    margin-block: 2rem;
+}
+
+.categories-card {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+/* ?media queries */
+/* *For tablet devices */
 @media (min-width: 768px) {
     #hero h1 {
         font-size: 6rem;
+    }
+}
+
+/* *For desktop devices */
+@media (min-width: 1024px) {
+    #hero .hero-image {
+        height: 500px;
+    }
+
+    #messages {
+        flex-direction: row;
+        justify-content: center;
+
+        margin-block: 7rem;
+    }
+
+    #messages .divider {
+        width: 2px;
+        height: 130px;
+        background-color: var(--txt-color);
+    }
+
+    #messages .message {
+        font-size: 1.75rem;
+    }
+
+    #messages .message:nth-child(2) p {
+        border-block: 0;
+        border-inline: 2px solid var(--txt-color);
+    }
+
+    #categories h2 {
+        font-size: 3.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .categories-card {
+        gap: 8rem;
     }
 }

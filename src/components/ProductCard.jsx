@@ -24,8 +24,8 @@ const ProductCard = (props) => {
                 </div>
 
                 <picture className="card-image">
-                    <source type="image/webp" srcSet={`src/assets/plants/${plant.img1.webp}`} />
-                    <img src={`src/assets/plants/${plant.img1.mozjpeg}`} alt="" />
+                    <source type="image/webp" srcSet={`/plants/${plant.img1.webp}`} />
+                    <img src={`/plants/${plant.img1.mozjpeg}`} alt="" />
                 </picture>
             </motion.article>
         </>
