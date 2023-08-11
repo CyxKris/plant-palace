@@ -84,6 +84,14 @@ body {
     font-family: 'fa', sans-serif;
 }
 
+body:has(nav.is-open) {
+    overflow: hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
 #root {
     padding-inline: 1rem;
     /* position: relative; */

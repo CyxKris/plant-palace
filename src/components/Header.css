@@ -1,7 +1,18 @@
-
 header {
     max-width: 1200px;
     margin-inline: auto;
+
+    position: relative;
+}
+
+/* Styling all the icons */
+header nav .icon {
+    cursor: pointer;
+}
+
+header:has(nav.is-open) .header-content {
+    visibility: hidden;
+    opacity: 0;
 }
 
 .header-content {
@@ -44,4 +55,59 @@ header {
 
     font-size: 1.2rem;
     font-weight: 800;
+}
+
+
+/* THE MENU */
+.menu-content {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    padding-top: 1rem;
+
+    position: absolute;
+    inset: 0;
+
+    visibility: hidden;
+    opacity: 0;
+    /* transform: translateY(-100vh); */
+    /* padding: 1rem; */
+
+    transition: all .3s ease-in-out;
+}
+
+.menu-content.is-open {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.menu-content .close-menu svg {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-content .close-menu .close-icon-path {
+    fill: var(--txt-color);
+}
+
+.menu-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.menu-content ul a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 3rem;
+    border-bottom: 2px solid var(--txt-color);
+
+    transition: all .2s ease-in-out;
+}
+
+.menu-content ul a:hover {
+    color: var(--red-accent);
+    border-bottom: 2px solid var(--red-accent);
 }
