@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { plants } from "../assets/plants.json";
-import ProductCard from "./ProductCard";
-import FormSearch from "./FormSearch";
+import { plants } from "../../assets/plants.json";
+import ProductCard from "../../components/ProductCard";
+import FormSearch from "../../components/FormSearch";
 
 const Shop = () => {
     // Changing the document title

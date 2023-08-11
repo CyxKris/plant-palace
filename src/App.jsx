@@ -5,12 +5,16 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from "./components/Home";
-import Shop from "./components/Shop";
-import Sitemap from "./components/Sitemap";
-import NotFound from "./components/404";
+// Importing pages
+import Home from "./pages/home/Home";
+import Shop from "./pages/shop/Shop";
+import Sitemap from "./pages/sitemap/Sitemap";
+import Error from "./pages/error/404";
+
+// Importing Components
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Product from "./components/Product";
+import Cart from "./pages/cart/Cart";
 
 function App() {
     return (
@@ -32,11 +36,15 @@ function App() {
                     />
                     <Route
                         path="*"
-                        element={<NotFound />}
+                        element={<Error />}
                     />
                     <Route
                         path="/shop/products/:id"
                         element={<Product />}
+                    />
+                    <Route
+                        path="/shop/cart"
+                        element={<Cart />}
                     />
                 </Routes>
             </main>

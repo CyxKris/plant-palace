@@ -3,6 +3,7 @@
         {
             "id": "001",
             "commonName": "Snake Plant",
+            "price": 25.99,
             "scientificName": "Sansevieria trifasciata",
             "origin": "West Africa",
             "waterRequirements": "Low",
@@ -26,6 +27,7 @@
         {
             "id": "002",
             "commonName": "ZZ Plant",
+            "price": 35.99,
             "scientificName": "Zamioculcas zamiifolia",
             "origin": "Eastern Africa",
             "waterRequirements": "Low",
@@ -49,6 +51,7 @@
         {
             "id": "003",
             "commonName": "Pothos",
+            "price": 26.99,
             "scientificName": "Epipremnum aureum",
             "origin": "Solomon Islands",
             "waterRequirements": "Moderate",
@@ -72,6 +75,7 @@
         {
             "id": "004",
             "commonName": "Chinese Evergreen",
+            "price": 24.99,
             "scientificName": "Aglaonema spp.",
             "origin": "Southeast Asia",
             "waterRequirements": "Moderate",
@@ -95,6 +99,7 @@
         {
             "id": "005",
             "commonName": "Rose Bush",
+            "price": 55.99,
             "scientificName": "Rosa spp.",
             "origin": "Various regions",
             "waterRequirements": "Moderate",
@@ -110,6 +115,7 @@
         {
             "id": "006",
             "commonName": "Lavender",
+            "price": 25.99,
             "scientificName": "Lavandula spp.",
             "origin": "Mediterranean region",
             "waterRequirements": "Low",
@@ -125,6 +131,7 @@
         {
             "id": "007",
             "commonName": "Ferns",
+            "price": 45.99,
             "scientificName": "Various genera",
             "origin": "Worldwide",
             "waterRequirements": "High",
@@ -140,6 +147,7 @@
         {
             "id": "008",
             "commonName": "Bougainvillea",
+            "price": 36.99,
             "scientificName": "Bougainvillea spp.",
             "origin": "South America",
             "waterRequirements": "Low to moderate",
@@ -155,6 +163,7 @@
         {
             "id": "009",
             "commonName": "Basil",
+            "price": 40.00,
             "scientificName": "Ocimum basilicum",
             "origin": "Southeast Asia",
             "waterRequirements": "Regular",
@@ -170,6 +179,7 @@
         {
             "id": "010",
             "commonName": "Cherry Tomato",
+            "price": 35.99,
             "scientificName": "Solanum lycopersicum",
             "origin": "South America",
             "waterRequirements": "Regular",
@@ -185,6 +195,7 @@
         {
             "id": "011",
             "commonName": "Mint",
+            "price": 55.55,
             "scientificName": "Mentha spp.",
             "origin": "Europe, Asia, Africa",
             "waterRequirements": "Regular",
@@ -200,6 +211,7 @@
         {
             "id": "012",
             "commonName": "Strawberry",
+            "price": 36.00,
             "scientificName": "Fragaria spp.",
             "origin": "Various regions",
             "waterRequirements": "Regular",
@@ -215,6 +227,7 @@
         {
             "id": "013",
             "commonName": "Spider Plant",
+            "price": 48.99,
             "scientificName": "Chlorophytum comosum",
             "origin": "Southern Africa",
             "waterRequirements": "Moderate",
@@ -231,6 +244,7 @@
         {
             "id": "014",
             "commonName": "Peace Lily",
+            "price": 45.99,
             "scientificName": "Spathiphyllum spp.",
             "origin": "Tropical regions",
             "waterRequirements": "Moderate",
@@ -248,6 +262,7 @@
         {
             "id": "015",
             "commonName": "Jade Plant",
+            "price": 50.99,
             "scientificName": "Crassula ovata",
             "origin": "South Africa",
             "waterRequirements": "Low",
@@ -265,6 +280,7 @@
         {
             "id": "016",
             "commonName": "Zucchini",
+            "price": 45.99,
             "scientificName": "Cucurbita pepo",
             "origin": "Central and North America",
             "waterRequirements": "Regular",
