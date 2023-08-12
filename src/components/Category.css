@@ -49,6 +49,7 @@
 
 
 /* ?media queries */
+
 @media (min-width: 968px) {
     .home-category {
         flex-direction: row;

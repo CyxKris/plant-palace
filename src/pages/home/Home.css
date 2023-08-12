@@ -80,11 +80,70 @@
 }
 
 
+#contact-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-block: 5rem 2rem;
+}
+
+#contact-feedback .contact,
+#contact-feedback .feedback{
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#contact-feedback .contact h3,
+#contact-feedback .feedback h3{
+    border-bottom: 1px solid var(--bg-color);
+    margin-bottom: 1rem;
+}
+
+
+#contact-feedback .feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contact-feedback .feedback form input, 
+#contact-feedback .feedback form textarea {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#contact-feedback .feedback form textarea {
+    resize: none;
+}
+
+#contact-feedback .feedback form button {
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+
+    transition: all .3s ease-in-out;
+}
+
+#contact-feedback .feedback form button:hover {
+    background-color: var(--red-accent);
+}
+
 /* ?media queries */
 /* *For tablet devices */
 @media (min-width: 768px) {
     #hero h1 {
         font-size: 6rem;
+    }
+
+    #contact-feedback {
+        flex-direction: row;
     }
 }
 

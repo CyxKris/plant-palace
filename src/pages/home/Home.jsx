@@ -80,6 +80,29 @@ const Home = () => {
                     />
                 </div>
             </section>
+
+            <section id="contact-feedback">
+                <section className="contact">
+                    <h3>CONTACT</h3>
+                    <div>
+                        <p>EMAIL: CYXKRIS6@GMAIL.COM</p>
+                        <p>PHONE: (+234) 706 131 3300</p>
+                    </div>
+                </section>
+
+                <section className="feedback">
+                    <h3>FEEDBACK</h3>
+                    <div>
+                        <form onSubmit={(e) => {
+                            e.preventDefault();
+                        }}>
+                            <input type="text" name="name" id="name" placeholder="Input your name" />
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+                            <button>SEND</button>
+                        </form>
+                    </div>
+                </section>
+            </section>
         </>
     );
 };
