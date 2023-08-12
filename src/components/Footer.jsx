@@ -45,23 +45,12 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="footer-links__bottom">
-                        <a
-                            href=""
-                            className="footer-link"
-                        >
-                            FEEDBACK
-                        </a>
-                        <a
-                            href=""
-                            className="footer-link"
-                        >
-                            CONTACT
-                        </a>
+                        <Link to="/cart">CART</Link>
                     </div>
                 </div>
 
                 <div className="copyright">
-                    <p>&copy; 2023 OURGROUP | ALL RIGHTS RESERVED</p>
+                    <p>&copy; 2023 GROUPCYX | ALL RIGHTS RESERVED</p>
                 </div>
             </div>
         </footer>

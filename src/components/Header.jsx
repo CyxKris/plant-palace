@@ -116,8 +116,8 @@ const Header = () => {
                         >
                             SITEMAP
                         </Link>
-                        <Link>CONTACT</Link>
-                        <Link>FEEDBACK</Link>
+                        {/* <Link to="/#id-feedback">CONTACT</Link>
+                        <Link>FEEDBACK</Link> */}
                     </ul>
                 </nav>
             </header>

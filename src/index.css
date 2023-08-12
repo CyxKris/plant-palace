@@ -78,6 +78,10 @@
     --footer-bg: var(--txt-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--txt-color);
