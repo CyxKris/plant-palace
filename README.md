@@ -1,8 +1,11 @@
-# React + Vite
+# PlantPalace Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A website for a fictional plant company.
 
-Currently, two official plugins are available:
+The live site is at this url: [Live Site](https://plant-palace.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the site on your local computer, download the .zip file, extract it and open it in VsCode.
+You need to make sure you have nodejs installed for this to work
+
+Next, run the command `npm install` to install all dependencies.
+Then, run the command `npm run dev` to view it on your browser.
