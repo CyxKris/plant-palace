@@ -16,12 +16,14 @@ import ThemeSwitcher from "./components/ThemeSwitcher";
 import Product from "./components/Product";
 import Cart from "./pages/cart/Cart";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import ScrollToTop from "./components/ScrollToTop";
 // import { ShopContextProvider } from "./context/shop-context";
 
 function App() {
     return (
         <>
             <ShoppingCartProvider>
+                <ScrollToTop />
                 <Header />
                 <main>
                         <Routes>
