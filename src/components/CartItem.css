@@ -9,14 +9,13 @@
     flex-direction: column;
 }
 
-.cart-item-image {
-    width: 100%;
+.cart-item .image {
+    flex: 1;
     overflow: hidden;
 }
 
 .cart-item-image img {
     width: 100%;
-    max-height: 100%;
     object-fit: cover;
     object-position: center;
     border-top-left-radius: 1rem;
