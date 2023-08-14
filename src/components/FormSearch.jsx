@@ -32,20 +32,20 @@ const FormSearch = (props) => {
 
                 <button
                     className={
-                        activeCategory === "Indoor Plants" ? "active" : ""
-                    }
-                    onClick={() => setActiveCategory("Indoor Plants")}
-                >
-                    Indoor
-                </button>
-
-                <button
-                    className={
                         activeCategory === "Outdoor Plants" ? "active" : ""
                     }
                     onClick={() => setActiveCategory("Outdoor Plants")}
                 >
                     Outdoor
+                </button>
+                
+                <button
+                    className={
+                        activeCategory === "Indoor Plants" ? "active" : ""
+                    }
+                    onClick={() => setActiveCategory("Indoor Plants")}
+                >
+                    Indoor
                 </button>
 
                 <button
